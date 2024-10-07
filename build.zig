@@ -1,5 +1,5 @@
 const std = @import("std");
-
+pub fn build(b: *std.Build) void {
     const install_site = b.addInstallDirectory(.{
         .source_dir = b.path("src/www"),
         .install_dir = .prefix,
