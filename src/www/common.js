@@ -4,9 +4,9 @@ function page(stub, href) {
 
 const PAGES = [
   page('home', '/index.html'),
-  page('resume', '/blog.html'),
-  page('demos', '/links.html'),
-  page('blog', '/about.html'),
+  page('blog', '/blog'),
+  page('links', '/links.html'),
+  page('about', '/about.html'),
 ];
 
 /**
