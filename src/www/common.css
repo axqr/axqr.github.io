@@ -19,9 +19,13 @@ button {
     background-color: yellow;
     color: red;
 }
-footer {
+.footer {
     font-size: 0.5em;
     line-height: 2em;
+}
+.linkbox {
+    background-color: white;
+    color: pink;
 }
 @media (prefers-color-scheme: dark) {
   html,body,pre,footer {
