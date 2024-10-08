@@ -19,8 +19,12 @@ button {
     background-color: yellow;
     color: red;
 }
+footer {
+    font-size: 0.5em;
+    line-height: 2em;
+}
 @media (prefers-color-scheme: dark) {
-  html,body,pre {
+  html,body,pre,footer {
     background-color: #000;
     color: #fff;
   }
