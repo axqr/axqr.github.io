@@ -15,20 +15,11 @@ pre {
     font-size: 0.5em;
     line-height: 2em;
 }
-button {
-    background-color: yellow;
-    color: red;
-}
-.footer {
-    font-size: 0.5em;
-    line-height: 2em;
-}
-.linkbox {
-    background-color: white;
-    color: pink;
+.page {
+    
 }
 @media (prefers-color-scheme: dark) {
-  html,body,pre,footer {
+  html,body,pre {
     background-color: #000;
     color: #fff;
   }
