@@ -39,7 +39,7 @@ function genHeader(div) {
  * generate common footer contents
  */
 function genFooter(div) {
-  div.textContent = '<pre>Copyright 2024 axqr</pre>';
+  div.textContent = 'Copyright 2024 axqr. All Rights Reserved.';
 }
 
 addEventListener('load', () => {
